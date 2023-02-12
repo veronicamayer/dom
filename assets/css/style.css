@@ -1,0 +1,148 @@
+@font-face {
+  font-family: crazy;
+  src: url(../fonts/SuperMario256.ttf);
+}
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+#Lev1_2 .style {
+  display: inline-block;
+  border-radius: 5px;
+  background: #666;
+  color: white;
+  padding: 5px;
+}
+#Lev1_2 .example {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#Lev2_1 ul, #Lev2_3 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+#Lev2_1 .listContainer, #Lev2_3 .listContainer {
+  display: flex;
+}
+#Lev2_1 li a, #Lev2_3 li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#Lev2_1 li a:hover:not(.active), #Lev2_3 li a:hover:not(.active) {
+  background-color: #111;
+}
+#Lev2_1 .active, #Lev2_3 .active {
+  background-color: #4CAF50;
+}
+
+#Lev2_2 input[type=text],
+#Lev2_2 select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#Lev2_2 input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#Lev2_2 input[type=submit]:hover {
+  background-color: #45a049;
+}
+#Lev2_2 div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#Lev2_4 article {
+  height: 150px;
+  width: 100%;
+}
+#Lev2_4 form {
+  padding: 5px;
+  margin: 10px;
+  display: inline-block;
+  background: #999;
+  border-radius: 5px;
+}
+#Lev2_4 input {
+  background: #333;
+  color: white;
+}
+
+#Lev2_10 body {
+  font-family: "Karla", sans-serif;
+}
+#Lev2_10 button {
+  background-color: #035aa6;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+#Lev2_10 .wrapper {
+  max-width: 500px;
+}
+#Lev2_10 div {
+  border-radius: 5px;
+}
+#Lev2_10 .small {
+  margin: 10px;
+  width: 350px;
+  border: 5px solid gray;
+  color: rgb(95, 188, 95);
+  font-size: 2rem;
+}
+#Lev2_10 .middle {
+  margin: 10px;
+  width: 350px;
+  border: 10px solid gray;
+  color: rgb(95, 188, 95);
+  font-size: 2rem;
+}
+#Lev2_10 .bigCrazy {
+  margin: 10px;
+  padding: 10px;
+  width: 450px;
+  border: 10px solid rgb(95, 188, 95);
+  color: rgb(95, 188, 95);
+  font-size: 2rem;
+  font-family: crazy;
+  -webkit-text-stroke: 4px rgb(196, 80, 31);
+  box-shadow: 0px 0px 0px 5px rgb(196, 80, 31);
+  letter-spacing: 0.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
